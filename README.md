@@ -5,6 +5,10 @@
 
 A small, runnable example for [Funded Companies Hiring](https://apify.com/aurelix/funded-companies-hiring), an Apify Actor by Aurelix.
 
+[![Funded Companies Hiring: 75-second demo video](https://api.apify.com/v2/key-value-stores/twkCCtTWzsi8fVbx5/records/funded-companies-hiring-demo-thumb-v1.png)](https://api.apify.com/v2/key-value-stores/twkCCtTWzsi8fVbx5/records/funded-companies-hiring-demo-v1.mp4)
+
+**[▶ Watch the 75-second demo](https://api.apify.com/v2/key-value-stores/twkCCtTWzsi8fVbx5/records/funded-companies-hiring-demo-v1.mp4)**
+
 ## What it does
 
 Funded Companies Hiring joins three public sources into one row per company. It reads the official SEC EDGAR Form D filings, the notice US companies file within 15 days of first selling shares, notes or SAFEs in a private round, and drops investment funds, SPVs and real-estate vehicles. For each operating company it confirms the website against the filing, finds the company's own public job board and reads every open role, then (optionally) reads the company's own contact, about and team pages for business emails, phones, contact pages, social links and the leaders it names there. Within each filing day the biggest raises are checked first. Turn on 'Only new since last run' and schedule it daily: later runs return only companies that are new, plus companies you already have whose job board now shows roles that were not there at the last check.
